@@ -12,9 +12,16 @@ A humanitarian with a great desire to get into IT. I am sure that nothing is imp
 ***
 ## Code example
 ```
-function multiply(a, b){
-  return a * b; 
-}
+function removeChar(str){
+  let i = 1;
+  let result = '';
+  for (;i < str.length - 1; i += 1) {
+     if (str.length > 2) {
+    result = `${result}${str[i]}`;
+    }
+  }   
+  return result; 
+};
 ```
 ***
 ## Experience
@@ -26,7 +33,8 @@ I don't have any experience in development yet
 + ITsila
     * QA engineer
 + RS SCHOOL
-    * JavaScript/Front-end Stage 0 (in process)
+    * JavaScript/Front-end Stage 0 
+    * JavaScript/Front-end Stage 1 (in process)
 ***
 ## Language
 * English - A2 (and i continue to learn the language)
